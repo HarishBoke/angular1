@@ -1,0 +1,54 @@
+{
+  "employee": [
+    {
+      "id": 0,
+      "firstName": "Harish",
+      "lastName": "Boke",
+      "salary": 50000,
+      "department": "DCS",
+      "designation": "Sr. Software Engineer",
+      "Address": "some ccomment some comment some comment some commenttypicode",
+      "telephone": "9767024642"
+    },
+    {
+      "id": 1,
+      "firstName": "Sagar",
+      "lastName": "Agarwal",
+      "salary": 80000,
+      "department": "DCS",
+      "designation": "Sr.Software Engineer",
+      "Address": "some ccomment some comment some comment some commenttypicode",
+      "telephone": "1234567890"
+    },
+    {
+      "id": 2,
+      "firstName": "Abhishek",
+      "lastName": "Dixit",
+      "salary": 120000,
+      "department": "DCS",
+      "designation": "Principle.Software Engineer",
+      "Address": "some ccomment some comment some comment some commenttypicode",
+      "telephone": "0987654321"
+    },
+    {
+      "id": 3,
+      "firstName": "Harish1",
+      "lastName": "",
+      "salary": "",
+      "department": "",
+      "designation": "Principle.Software engineer",
+      "address": "",
+      "telephone": ""
+    }
+  ],
+  "comments": [
+    {
+      "id": 0,
+      "body": "some comment",
+      "postId": 0
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

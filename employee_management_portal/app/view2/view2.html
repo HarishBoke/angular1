@@ -1,0 +1,54 @@
+<p>Add new employeeData</p>
+<br>
+
+<div class="row">
+	<div class="col-md-3">First Name</div>
+	<div class="col-md-7"><input type="text" name="firstName" class="form-control" ng-model="employeeData.firstName" /></div>
+</div>	
+<br>
+<div class="row">
+	<div class="col-md-3">Last Name</div>
+	<div class="col-md-7"><input type="text" name="lastName" class="form-control" ng-model="employeeData.lastName" /></div>
+</div>
+<br>	
+<div class="row">
+	<div class="col-md-3">Salary</div>
+	<div class="col-md-7"><input type="number" name="salary" class="form-control" ng-model="employeeData.salary" /></div>
+</div>
+<br>	
+<div class="row">
+	<div class="col-md-3">Department</div>
+	<div class="col-md-7"><input type="text" name="department" class="form-control" ng-model="employeeData.department" /></div>
+</div>
+<br>	
+<div class="row">
+	<div class="col-md-3">Designation</div>
+	<div class="col-md-7">
+		<select name="Designation" class="form-control" ng-model="employeeData.designation">
+				<option>Software engineer</option>
+				<option>Sr.Software engineer</option>
+				<option>Principle.Software engineer</option>
+				<option>Manager</option>
+				<option>staff</option>
+		</select>
+		<!-- <input type="text" name="Designation" class="form-control" ng-model="employeeData.designation" /> -->
+	</div>
+</div>
+<br>	
+<div class="row">
+	<div class="col-md-3">Address</div>
+	<div class="col-md-7"><textarea ng-model="employeeData.address" class="form-control" row="5"></textarea></div>
+</div>
+<br>	
+<div class="row">
+	<div class="col-md-3">Telephone</div>
+	<div class="col-md-7"><input type="tel" maxlength="10" name="telephone" class="form-control" ng-model="employeeData.telephone" /></div>
+</div>
+<br>	
+<div class="row">
+	<div class="col-md-3"></div>
+	<div class="col-md-7 text-right">
+		<a class="btn btn-default btn-small" ng-href="#/view1">Cancel</a>
+		<button class="btn btn-primary btn-small" ng-click="addUser()">Add User</button></div>
+</div>	
+<br>
